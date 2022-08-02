@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:robo_app/ui/themes/app_colors.dart';
-import 'package:robo_app/ui/themes/dark.theme.dart';
-import 'package:robo_app/ui/themes/light.theme.dart';
+import 'package:robo_arm_frontend/ui/themes/app_colors.dart';
+import 'package:robo_arm_frontend/ui/themes/dark.theme.dart';
+import 'package:robo_arm_frontend/ui/themes/light.theme.dart';
 
 
 class AppTheme {

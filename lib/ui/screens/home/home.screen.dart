@@ -4,12 +4,13 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:logger/logger.dart';
-import 'package:robo_app/core/api/servo.dart';
-import 'package:robo_app/core/services/services.dart';
-import 'package:robo_app/ui/screens/home/widgets/control_slider.dart';
-import 'package:robo_app/ui/screens/settings/settings.screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
+
+import '../../../core/api/servo.dart';
+import '../../../core/services/services.dart';
+import '../settings/settings.screen.dart';
+import 'widgets/control_slider.dart';
 
 class HomeScreen extends StatefulHookWidget {
   const HomeScreen({Key? key}) : super(key: key);

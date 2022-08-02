@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:logger/logger.dart';
-import 'package:robo_app/core/api/servo.dart';
-import 'package:robo_app/core/services/services.dart';
+
+import '../../../../core/api/servo.dart';
+import '../../../../core/services/services.dart';
 
 /// Slider to control one servo
 class ControlSlider extends StatefulHookWidget {

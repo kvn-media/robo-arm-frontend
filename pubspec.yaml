@@ -1,4 +1,4 @@
-name: robo_app
+name: robo_arm_frontend
 description: A robot control app
 publish_to: 'none'
 version: 1.0.0+1
